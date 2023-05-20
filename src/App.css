@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #0a192f;
+ 
+
+}
+.signature{
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 50px;
+  
+}
+
+.signature1{
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+  
+}
+.get{
+  word-spacing: 8px;
+  color:whitesmoke;
+  margin-left: 20px;
+}
+.aws{
+  color: #ff9b01;
+}
+.name{
+  color: rgb(255, 94, 0);
+  
+}
+.pro{
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  align-items: center;
+}
+/* .skill{
+  margin-top: 200px;
+}
+.project{
+    margin-top: 350px;
+
+} */
+
+.hand{
+  cursor: pointer;
+  transition: transform .2s;
+}
+.hand:hover {
+  color: rgb(227, 199, 41);
+  transform: scale(1.1);
+  
+}
+
+.rose{
+  color: gainsboro;
+  
+}
+.element{
+  animation: rotate 4s infinite;
+  /* background-color:#eee; */
+  /* width: 200px;
+  height: 200px; */
+}
+
+@keyframes rotate {
+  0% {
+    /* transform: rotate(-35deg) */
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+
+
+.typewriter {
+
+  width: 0ch;
+  color: rgb(248, 99, 124);
+  float: left;
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size: 25px;
+  margin-left:95px;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 5px;
+  animation: typing 5s steps(50) 1s infinite alternate;
+}
+.typewriter span{
+color:red;}
+
+#crow {
+  float: left;
+
+color: white;
+  font-family: consolas;
+  font-weight:bold;
+  font-size: 5px;
+  animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+  from {
+      width: 0ch;
+  }
+  to {
+      width: 18ch;
+  }
+}
+@keyframes crow {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
