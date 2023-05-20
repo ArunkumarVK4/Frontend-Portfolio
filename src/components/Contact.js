@@ -49,7 +49,7 @@ export default function Contact() {
 
               <a
                 target="_blank"
-                href=""
+                href="https://www.linkedin.com/in/arunkumar-vk-a36080257/"
                 className="btn btn-primary element hand"
               >
                 <BsLinkedin size={35} />
