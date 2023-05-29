@@ -19,7 +19,7 @@ export default function Project() {
           </h5><br />
           
           <div className='mt-3'>
-          <a target="_blank" href='https://jolly-jalebi-5878c4.netlify.app/#' className='btn btn-info hand fw-bold mx-5'><h3><RiLiveFill/> DEMO </h3></a>
+          <a target="_blank" href='https://flourishing-sprite-2db1d6.netlify.app/' className='btn btn-info hand fw-bold mx-5'><h3><RiLiveFill/> DEMO </h3></a>
 
         <a target="_blank" href='https://github.com/ArunkumarVK4/react-cart' className='btn btn-info  hand fw-bold mx-auto'> <h3><FaLaptopCode/> CODE</h3></a>
           </div>
